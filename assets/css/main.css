@@ -2397,6 +2397,7 @@ input, select, textarea {
 
 					#header nav ul li.current > a {
 						font-weight: 900;
+						font-size: 25px;
 					}
 
 		#header.reveal {
