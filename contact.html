@@ -1,120 +1,121 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
 	<head>
-		<title>Contact - Bristol Bagpiper | Piper for Hire</title>
+		<title>Contact The Bristol Bagpiper | Check Availability</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-		<meta name="description" content="Hire Julian Smart, ex-Scots Guards piper for your wedding, funeral, or other special occasion.">
+		<meta
+			name="description"
+			content="Contact Julian Smart to check availability for weddings, funerals, memorials, parties and other events across Bristol, the surrounding area and parts of Wiltshire."
+		/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="contact is-preload">
+	<body class="contact contact-page is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header -->
 			<header id="header" class="alt">
-				<h1 style="font-size: 25px" id="logo"><a href="index.html">the Bristol Bagpiper <span>| Piper for Hire</span></a></h1>
-				<nav id="nav">
+				<h1 id="logo"><a href="index.html">The Bristol Bagpiper <span>| Piper for Hire</span></a></h1>
+				<nav id="nav" aria-label="Primary">
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li class="current"><a href="gallery.html">Gallery</a></li>
-						<li class="current"><a href="audio.html">Audio</a></li>
-						<li class="current"><a href="contact.html" >Contact</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="audio.html">Audio</a></li>
+						<li class="current"><a href="contact.html" aria-current="page">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
-				<section id="banner">
 
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div style="padding-top: 70px;" class="inner">
+			<section id="banner">
+				<div class="inner page-hero">
+					<header>
+						<h2>Contact</h2>
+					</header>
+					<p>Tell Julian about your event and he can confirm availability across Bristol, the surrounding area and parts of Wiltshire.</p>
+				</div>
+			</section>
 
-						<header>
-							<h2>Contact</h2>
-						</header>
-						<footer>
-							
-						</footer>
+			<article id="main">
+				<header class="special container">
+					<span class="icon solid fa-envelope"></span>
+					<h2>Check availability</h2>
+					<p>Share a few details below and Julian can respond with the best options for your event.</p>
+				</header>
 
+				<section class="wrapper style4 special container medium contact-shell">
+					<div id="form-success" class="form-success" hidden>
+						<h3>Thanks for your enquiry</h3>
+						<p>Your message has been sent successfully. Julian will be in touch as soon as possible.</p>
 					</div>
 
-				</section>
-			<!-- Main -->
-				<article id="main">
-
-					<header class="special container">
-						<span class="icon solid fa-envelope"></span>
-						<h2>Get In Touch</h2>
-						<p>Use the form below to book Julian for your event.</p>
-					</header>
-
-					<!-- One -->
-						<section class="wrapper style4 special container medium">
-
-							<!-- Content -->
-								<div class="content">
-									<form
-  										action="https://formspree.io/f/xqkwbroo" method="POST"
-									>
-  										<label>
-    										Your email:
-    										<input type="email" name="_replyto">
-  										</label>
-  										<label>
-    										Your message:
-    										<textarea name="message"></textarea>
-  										</label>
-
-										<input type="hidden" name="_next" value="//bristolbagpiper.github.io/bristolbagpiper/contact.html"/>	
-
-										<button style = "margin-top: 20px"type="submit">Send
-
-										</button>
-
-									</form>									  
-
-								
+					<div class="content">
+						<form action="https://formspree.io/f/xqkwbroo" method="POST" class="booking-form">
+							<p class="form-intro">
+								If you'd like to enquire about an event, just send a message below.
+								You can include the date, location or any tune requests if helpful.
+							</p>
+							<div class="form-grid simple-form-grid">
+								<div class="field">
+									<label for="email">Your email</label>
+									<input type="email" name="email" id="email" autocomplete="email" required />
 								</div>
+								<div class="field">
+									<label for="message">Your message</label>
+									<textarea
+										name="message"
+										id="message"
+										rows="6"
+										placeholder="Tell Julian about your event or send a general enquiry."
+										required
+									></textarea>
+								</div>
+							</div>
 
-						</section>
+							<input type="hidden" name="subject" value="New enquiry for The Bristol Bagpiper" />
+							<input
+								type="hidden"
+								name="_next"
+								value="https://bristolbagpiper.co.uk/contact.html?submitted=1"
+							/>
 
-				</article>
+							<button type="submit" class="button primary fit">Send enquiry</button>
+						</form>
+					</div>
+				</section>
+			</article>
 
-			<!-- Footer -->
 			<footer id="footer">
 				<ul class="copyright">
-				<li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="audio.html">Audio</a></li><li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="audio.html">Audio</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				<ul class="copyright">
-				<li>Site Created by AGS</li>	
+					<li>Site Created by AGS</li>
 				</ul>
-				<!--<ul class="copyright">
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					
-				</ul>	-->
 			</footer>
 
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				var success = document.getElementById('form-success');
+				var params = new URLSearchParams(window.location.search);
 
+				if (success && params.get('submitted') === '1') {
+					success.hidden = false;
+					success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+				}
+			});
+		</script>
 	</body>
 </html>
