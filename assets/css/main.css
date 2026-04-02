@@ -3637,12 +3637,16 @@ input, select, textarea {
 	#banner .inner.site-hero header h2 {
 		font-size: clamp(2.35em, 4.8vw, 3.7em);
 		letter-spacing: 0.03em;
-		line-height: 0.92em;
+		line-height: 0.98em;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
 		white-space: normal;
 		width: 100%;
+	}
+
+	#banner .inner.site-hero header h2 span {
+		display: block;
 	}
 
 	#banner .inner.site-hero .hero-copy {
@@ -3767,6 +3771,26 @@ input, select, textarea {
 	.quick-link-card p:last-child,
 	.booking-note .site-checklist:last-child {
 		margin-bottom: 0;
+	}
+
+	.service-card header,
+	.quick-link-card header,
+	.service-card p,
+	.quick-link-card p {
+		text-align: left;
+	}
+
+	.service-card p,
+	.quick-link-card p {
+		text-wrap: pretty;
+	}
+
+	.section-lead,
+	.home-page #main > header.special p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 42rem;
+		text-align: center;
 	}
 
 	.site-checklist {
@@ -4109,8 +4133,9 @@ input, select, textarea {
 		}
 
 		#banner .inner.site-hero header h2 {
-			font-size: 2em;
-			letter-spacing: 0.02em;
+			font-size: 1.8em;
+			letter-spacing: 0.025em;
+			line-height: 1.02em;
 		}
 
 		#banner .inner.site-hero .buttons {
@@ -4144,6 +4169,13 @@ input, select, textarea {
 		.booking-note,
 		.tune-button {
 			padding: 1.6em 1.35em;
+		}
+
+		.service-card header,
+		.quick-link-card header,
+		.service-card p,
+		.quick-link-card p {
+			text-align: left;
 		}
 
 		.site-stats li {
