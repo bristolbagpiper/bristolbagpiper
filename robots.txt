@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bristolbagpiper.co.uk/sitemap.xml
